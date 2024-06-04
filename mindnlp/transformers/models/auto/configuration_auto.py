@@ -68,6 +68,7 @@ CONFIG_MAPPING_NAMES = OrderedDict(
         ("esm", "EsmConfig"),
         ("falcon", "FalconConfig"),
         ("gemma", "GemmaConfig"),
+        ("git", "GitConfig"),
         ("gpt2", "GPT2Config"),
         ("gpt_bigcode", "GPTBigCodeConfig"),
         ("gpt_neox", "GPTNeoXConfig"),
