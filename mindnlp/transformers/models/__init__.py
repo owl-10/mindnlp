@@ -58,6 +58,7 @@ from . import (
     ctrl,
     cpmbee,
     cvt,
+    data2vec,
     deberta,
     deberta_v2,
     decision_transformer,
@@ -79,6 +80,7 @@ from . import (
     gpt,
     gpt2,
     gpt_bigcode,
+    gptj,
     gpt_neo,
     gpt_neox,
     gpt_neox_japanese,
@@ -90,6 +92,7 @@ from . import (
     jetmoe,
     layoutlm,
     layoutlmv2,
+    led,
     llama,
     llava,
     llava_next,
@@ -132,6 +135,7 @@ from . import (
     seamless_m4t,
     seamless_m4t_v2,
     segformer,
+    seggpt,
     speech_encoder_decoder,
     stablelm,
     squeezebert,
@@ -201,6 +205,7 @@ from .ctrl import *
 from .cpmant import *
 from .cpmbee import *
 from .cvt import *
+from .data2vec import *
 from .deberta import *
 from .deberta_v2 import *
 from .decision_transformer import *
@@ -220,6 +225,7 @@ from .funnel import *
 from .gemma import *
 from .git import *
 from .gpt import *
+from .gptj import *
 from .gpt_neo import *
 from .gpt_neox import *
 from .gpt_neox_japanese import *
@@ -233,6 +239,7 @@ from .imagegpt import *
 from .jetmoe import *
 from .layoutlm import *
 from .layoutlmv2 import *
+from .led import *
 from .llama import *
 from .llava import *
 from .llava_next import *
@@ -275,6 +282,7 @@ from .sam import *
 from .seamless_m4t import *
 from .seamless_m4t_v2 import *
 from .segformer import *
+from .seggpt import *
 from .speech_encoder_decoder import *
 from .stablelm import *
 from .squeezebert import *
@@ -344,6 +352,7 @@ __all__.extend(ctrl.__all__)
 __all__.extend(cpmant.__all__)
 __all__.extend(cpmbee.__all__)
 __all__.extend(cvt.__all__)
+__all__.extend(data2vec.__all__)
 __all__.extend(deberta.__all__)
 __all__.extend(deberta_v2.__all__)
 __all__.extend(decision_transformer.__all__)
@@ -361,6 +370,7 @@ __all__.extend(funnel.__all__)
 __all__.extend(chatglm2.__all__)
 __all__.extend(chatglm3.__all__)
 __all__.extend(gpt.__all__)
+__all__.extend(gptj.__all__)
 __all__.extend(gemma.__all__)
 __all__.extend(git.__all__)
 __all__.extend(gpt_neo.__all__)
@@ -376,6 +386,7 @@ __all__.extend(imagegpt.__all__)
 __all__.extend(jetmoe.__all__)
 __all__.extend(layoutlm.__all__)
 __all__.extend(layoutlmv2.__all__)
+__all__.extend(led.__all__)
 __all__.extend(llama.__all__)
 __all__.extend(llava.__all__)
 __all__.extend(llava_next.__all__)
@@ -418,6 +429,7 @@ __all__.extend(sam.__all__)
 __all__.extend(seamless_m4t.__all__)
 __all__.extend(seamless_m4t_v2.__all__)
 __all__.extend(segformer.__all__)
+__all__.extend(seggpt.__all__)
 __all__.extend(speech_encoder_decoder.__all__)
 __all__.extend(stablelm.__all__)
 __all__.extend(squeezebert.__all__)
