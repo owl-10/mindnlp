@@ -145,6 +145,8 @@ from . import (
     vision_text_dual_encoder,
     visual_bert,
     vit,
+    vitdet,
+    vitmatte,
     wav2vec2,
     wav2vec2_conformer,
     wav2vec2_with_lm,
@@ -286,6 +288,8 @@ from .vipllava import *
 from .vision_text_dual_encoder import *
 from .visual_bert import *
 from .vit import *
+from .vitdet import *
+from .vitmatte import *
 from .whisper import *
 from .wav2vec2 import *
 from .wav2vec2_conformer import *
@@ -427,6 +431,8 @@ __all__.extend(vipllava.__all__)
 __all__.extend(vision_text_dual_encoder.__all__)
 __all__.extend(visual_bert.__all__)
 __all__.extend(vit.__all__)
+__all__.extend(vitdet.__all__)
+__all__.extend(vitmatte.__all__)
 __all__.extend(whisper.__all__)
 __all__.extend(wav2vec2.__all__)
 __all__.extend(wav2vec2_conformer.__all__)
